@@ -1,0 +1,31 @@
+@import '~bootstrap/less/bootstrap.less';
+@import '~font-awesome/less/font-awesome.less';
+@import '~react-select/dist/default.css';
+
+// Top padding for navbar
+body {
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  padding-top: 0px;
+}
+
+.navbar-collapse {
+  overflow: hidden;
+}
+
+.navbar-nav > li > a {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+@media(max-width: @screen-xs-max) {
+  .container > div.navbar-header {
+    margin-left: -15px;
+    margin-right: 0;
+  }
+}
+
+.row {
+  padding-right:0;
+  padding-left:0;
+  padding-bottom: 25px;
+}
